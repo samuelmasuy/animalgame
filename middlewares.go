@@ -9,7 +9,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/context"
-	"github.com/samuelmasuy/protobuff/repo"
+	"github.com/samuelmasuy/animalgame/repo"
 )
 
 // Middlewares
