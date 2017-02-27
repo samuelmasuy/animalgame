@@ -1,0 +1,20 @@
+syntax = "proto3";
+package repo;
+
+message ProtoAnimalQuestion {
+        int32 id = 1;
+        string content = 2;
+}
+
+message ProtoAnimalAnswer {
+        int32 id = 1;
+        bool content = 2;
+}
+
+message ProtoError {
+        string content = 1;
+}
+
+message ProtoAnimalList {
+        repeated string content = 1;
+}
